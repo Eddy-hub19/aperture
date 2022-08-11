@@ -5,7 +5,7 @@
   "homepage": "https://goitacademy.github.io/aperture",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /aperture/"
   },
   "repository": {
     "type": "git",
