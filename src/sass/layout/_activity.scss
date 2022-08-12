@@ -1,0 +1,82 @@
+.activity {
+  padding-top: 71px;
+  padding-bottom: 110px;
+  background-color: #849ec3;
+  &__container-text {
+    padding: 11px 27px 25px 26px;
+  }
+  &__title {
+    font-family: 'Oranienbaum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.32;
+    /* identical to box height, or 66px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Основной цвет */
+
+    color: #22325b;
+    margin-bottom: 16px;
+  }
+  &__desc {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    /* or 30px */
+
+    letter-spacing: 0.03em;
+
+    /* Основной цвет */
+
+    color: #22325b;
+    margin-bottom: 40px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+  &__item {
+    background-color: #ffffff;
+    width: 360px;
+    border-radius: 2px;
+  }
+  &__caption {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.15;
+    /* or 23px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* Основной цвет */
+
+    color: #22325b;
+    margin-bottom: 6px;
+  }
+  &__caption-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    /* or 27px */
+
+    /* Основной цвет */
+
+    color: #22325b;
+    margin-bottom: 6px;
+  }
+}

@@ -1,0 +1,46 @@
+.production {
+  padding-top: 73px;
+  padding-bottom: 30px;
+}
+.production__title {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1;
+  /* identical to box height, or 35px */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* Основной цвет в категориях */
+
+  color: #243b76;
+  margin-bottom: 12px;
+}
+.production__desc {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  /* or 30px */
+
+  letter-spacing: 0.03em;
+
+  /* Основной цвет в категориях */
+
+  color: #243b76;
+  margin-bottom: 12px;
+}
+.production__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  /* or 27px */
+
+  color: #000000;
+  margin-bottom: 14px;
+}
