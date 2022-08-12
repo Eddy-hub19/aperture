@@ -1,0 +1,49 @@
+.banner {
+  position: relative;
+  .banner__title {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+    font-size: 30px;
+  }
+
+  .banner__btn {
+    position: absolute;
+    padding: 20px 40px;
+    background: cornflowerblue;
+    color: white;
+    top: 50%;
+    left: 44%;
+  }
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(29, 152, 129);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  &__item {
+    margin-left: 40px;
+  }
+}
+
+.our-prodaction {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background: rgb(29, 152, 129);
+  color: white;
+}
+
+.our-prodaction-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.prodaction-list-item {
+  width: calc(100% - 30px) / 4;
+}
