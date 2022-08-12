@@ -1,9 +1,11 @@
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./base/reset";
-@import "./base/common";
-@import "./utils/hidden";
-@import "./base/container";
+@import './utils/variables';
+@import './utils/mixins';
+@import './base/reset';
+@import './base/common';
+@import './utils/hidden';
+@import './base/container';
 
-@import "./header";
-@import "./content";
+@import './header';
+@import './content';
+@import './layout/looking';
+@import './layout/footer';
