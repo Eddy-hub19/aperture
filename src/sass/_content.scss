@@ -10,39 +10,45 @@
     font-weight: 500;
     font-size: 70px;
     line-height: 0.9;
-
     background: linear-gradient(89.95deg, #d9f8ff 0.02%, #65e3ff 39.3%, #3bdcff 58.62%, #58c3ff 100.17%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    .banner-span {
+      -webkit-text-fill-color: white;
+    }
   }
 
   .banner__btn {
     position: absolute;
-    padding: 14px 45px;
-    gap: 5px;
-    background: transparent;
-    color: white;
     top: 50%;
     left: 50%;
-    transform: translate(50%, -50%);
-    border: 2px solid #ffffff;
-    filter: drop-shadow(0px 0px 10px rgba(29, 106, 177, 0.25));
-    border-radius: 100px;
+    transform: translate(50%, 50%);
   }
+}
+
+// btn
+
+.btn {
+  padding: 14px 45px;
+  gap: 5px;
+  background: transparent;
+  color: white;
+  border: 2px solid #ffffff;
+  filter: drop-shadow(0px 0px 10px rgba(29, 106, 177, 0.25));
+  border-radius: 100px;
 }
 
 .benefits-list {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
   background: #23325b;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
   &__item {
     display: flex;
-    margin-left: 40px;
+    margin-left: 0;
     position: relative;
     &::before {
       content: "";
@@ -63,18 +69,36 @@
     }
   }
   .benefits-icon {
-    margin-left: 30px;
+    margin-left: 80px;
+    fill: currentColor;
   }
 }
 
 .our-prodaction {
-  padding-top: 50px;
-  padding-bottom: 150px;
+  padding-top: 70px;
+  padding-bottom: 110px;
   background: #23325b;
+  text-align: center;
   color: white;
+  &__title {
+    font-family: "Oranienbaum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.32;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6cb3d8;
+    text-align: start;
+    margin-left: 170px;
+  }
+  .prodaction-btn {
+    margin-top: 110px;
+  }
 }
 
 .our-prodaction-list {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -84,3 +108,4 @@
 .prodaction-list__item {
   width: calc(100% - 40px) / 4;
 }
+
