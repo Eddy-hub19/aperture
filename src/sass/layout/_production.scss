@@ -15,7 +15,7 @@
 
   /* Основной цвет в категориях */
 
-  color: #243b76;
+  color: var(--main-color-category);
   margin-bottom: 12px;
 }
 .production__desc {
@@ -30,7 +30,7 @@
 
   /* Основной цвет в категориях */
 
-  color: #243b76;
+  color: var(--main-color-category);
   margin-bottom: 12px;
 }
 .production__text {
@@ -41,6 +41,6 @@
   line-height: 1.7;
   /* or 27px */
 
-  color: #000000;
+  color: var(--black-text-color);
   margin-bottom: 14px;
 }

@@ -40,7 +40,7 @@
     font-size: 16px;
     line-height: 1.69;
 
-    color: #ffffff;
+    color: var(--white-text-color);
     margin-bottom: 25px;
   }
   &__container-button {
@@ -57,17 +57,17 @@
     text-align: center;
     letter-spacing: 0.05em;
 
-    color: #3bdcff;
+    color: var(--accent-button-color);
     padding: 17px 45px;
-    border: 2px solid #3bdcff;
+    border: 2px solid var(--accent-button-color);
     border-radius: 100px;
     background-color: transparent;
     margin-right: 61px;
     text-align: center;
     &:hover,
     &:focus {
-      background-color: #3bdcff;
-      color: #243b76;
+      background-color: var(--accent-button-color);
+      color: var(--main-text-color-category);
     }
   }
   &__soc-list {
@@ -82,6 +82,6 @@
     }
   }
   &__soc-icon {
-    fill: #ffffff;
+    fill: var(--white-text-color);
   }
 }

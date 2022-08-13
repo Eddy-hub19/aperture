@@ -20,7 +20,7 @@
 
     /* Основной цвет */
 
-    color: #22325b;
+    color: var(--main-text-color);
     margin-bottom: 16px;
   }
   &__desc {
@@ -35,7 +35,7 @@
 
     /* Основной цвет */
 
-    color: #22325b;
+    color: var(--main-text-color);
     margin-bottom: 40px;
   }
   &__list {
@@ -63,7 +63,7 @@
 
     /* Основной цвет */
 
-    color: #22325b;
+    color: var(--main-text-color);
     margin-bottom: 6px;
   }
   &__caption-desc {
@@ -76,7 +76,7 @@
 
     /* Основной цвет */
 
-    color: #22325b;
+    color: var(--main-text-color);
     margin-bottom: 6px;
   }
 }
