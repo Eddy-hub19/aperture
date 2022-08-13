@@ -11,7 +11,7 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    color: #22325b;
+    color: var(--main-text-color);
   }
   &__desc {
     font-family: 'Roboto Condensed';
@@ -20,6 +20,6 @@
     font-size: 18px;
     line-height: 1.68;
     letter-spacing: 0.03em;
-    color: #22325b;
+    color: var(--main-text-color);
   }
 }
