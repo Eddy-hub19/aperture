@@ -3,7 +3,7 @@
   padding-bottom: 139px;
   background-color: rgba(100, 140, 200, 0.4);
   &__title {
-    font-family: 'Oranienbaum';
+    font-family: "Oranienbaum";
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -14,7 +14,7 @@
     color: var(--main-text-color);
   }
   &__desc {
-    font-family: 'Roboto Condensed';
+    font-family: "Roboto Condensed";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -22,4 +22,10 @@
     letter-spacing: 0.03em;
     color: var(--main-text-color);
   }
+}
+
+.trust__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,11 +1,3 @@
-.swiper {
-  width: 1300px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .last-works {
   padding-top: 70px;
   padding-bottom: 110px;
@@ -15,8 +7,9 @@
 
 .works-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  z-index: 100;
 }
 .works-list__item {
   display: flex;
@@ -25,7 +18,13 @@
   margin-top: 50px;
   background: rgba(0, 0, 0, 0.04);
   backdrop-filter: blur(25px);
-  margin-left: 40px;
+  margin-left: 50px;
   background: #2c2c2c;
   color: white;
+  position: relative;
+}
+
+.works-list__title {
+  position: absolute;
+  bottom: 20px;
 }

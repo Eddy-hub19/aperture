@@ -1,21 +1,20 @@
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
+const swiper1 = new Swiper('.swiper1', {
+  spaceBetween: 0,
+  autoplay: 1,
   loop: true,
-
-  // If we need pagination
-  // pagination: {
-  //   el: '.swiper-pagination',
-  // },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  // scrollbar: {
-  //   el: '.swiper-scrollbar',
-  // },
+  speed: 300,
 });
+const swiper2 = new Swiper('.swiper2', {
+  spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination2',
+    clickable: true,
+  },
+});
+// const swiper3 = new Swiper('.swiper3', {
+//   spaceBetween: 30,
+//   pagination: {
+//     el: '.swiper-pagination3',
+//     clickable: true,
+//   },
+// });
