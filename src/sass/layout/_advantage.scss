@@ -1,0 +1,128 @@
+.advantage {
+  background-color: #22325b;
+  background-image: url("../images/advantage/bg-advantage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 71px;
+}
+
+.advantage-title {
+  font-family: "Oranienbaum";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.32;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6cb3d8;
+}
+
+.advantage-title_gap {
+  margin-bottom: 16px;
+}
+
+.advantage-title-card_gap {
+  margin-top: 50px;
+  margin-bottom: 78px;
+}
+
+.advantage__sub-title {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  color: #6cb3d8;
+  margin-bottom: 12px;
+}
+
+.advantage__descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.68;
+  color: #ffffff;
+}
+
+.advantage-cards {
+  padding-bottom: 50px;
+  padding-bottom: 110px;
+}
+
+.advantage-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantage-list__item {
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 13px;
+  width: 230px;
+  height: 280px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 99px;
+    height: 99px;
+    background-image: url("../images/advantage/advantage-1.png");
+    border: 1px solid #ffffff;
+    border-radius: 150px;
+    display: block;
+    margin-bottom: 19px;
+  }
+}
+
+.advantage-list__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.advantage-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px 51px 19px;
+}
+
+.advantage-list__title {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  width: 128px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6cb3d8;
+  margin-bottom: 19px;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    border: 1px solid #6cb3d8;
+    border-radius: 12px;
+  }
+}
+
+.advantage-list__descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.46;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}

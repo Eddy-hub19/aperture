@@ -1,10 +1,13 @@
 .banner {
   position: relative;
   width: 100%;
+  height: 85vh;
   .banner__title {
+    font-family: "Roboto Condensed";
+    font-style: normal;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 30%;
+    left: 30%;
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -37,12 +40,21 @@
   border: 2px solid #ffffff;
   filter: drop-shadow(0px 0px 10px rgba(29, 106, 177, 0.25));
   border-radius: 100px;
+  transition: background 600ms ease;
+  &:hover {
+    background: rgba(34, 50, 91, 0.9);
+  }
+}
+
+// benefits
+
+.benefits {
+  background: #23325b;
 }
 
 .benefits-list {
   display: flex;
   justify-content: space-evenly;
-  background: #23325b;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
@@ -74,10 +86,13 @@
   }
 }
 
-.our-prodaction {
+//our-production
+
+.our-production {
   padding-top: 70px;
   padding-bottom: 110px;
-  background: #23325b;
+  background: url(../images/bg-logo.png) no-repeat center;
+  background-color: #23325b;
   text-align: center;
   color: white;
   &__title {
@@ -97,7 +112,7 @@
   }
 }
 
-.our-prodaction-list {
+.our-production-list {
   margin-top: 60px;
   display: flex;
   justify-content: center;
@@ -108,4 +123,3 @@
 .prodaction-list__item {
   width: calc(100% - 40px) / 4;
 }
-
