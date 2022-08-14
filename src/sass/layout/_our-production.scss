@@ -1,0 +1,48 @@
+.our-product {
+  background-color: #f1f6ff;
+  padding-top: 71px;
+  padding-bottom: 110px;
+
+  &__title {
+    font-family: 'Oranienbaum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.32;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Основной цвет в категориях */
+
+    color: $main-text-color-category;
+    margin-bottom: 16px;
+  }
+  &__desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69;
+
+    /* Основной цвет */
+
+    color: $main-text-color;
+    margin-bottom: 40px;
+  }
+  &-list {
+  }
+  &-item {
+  }
+  &-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69;
+
+    letter-spacing: 0.03em;
+
+    color: $black-text-color;
+  }
+}

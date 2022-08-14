@@ -33,7 +33,7 @@
 
     /* Второстепенный цвет */
 
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
   }
   &__container {
     display: flex;
@@ -48,7 +48,7 @@
     font-size: 20px;
     line-height: 1.15;
 
-    color: var(--white-text-color);
+    color: $white-text-color;
     margin-bottom: 16px;
   }
   &__desc {
@@ -60,7 +60,7 @@
     /* or 22px */
     margin-bottom: 16px;
 
-    color: var(--white-text-color);
+    color: $white-text-color;
   }
   &__link {
     font-family: 'Roboto';
@@ -93,7 +93,7 @@
     display: flex;
     align-items: center;
 
-    color: var(--white-text-color);
+    color: $white-text-color;
   }
   &__email-item {
     &:not(:last-child) {
@@ -108,7 +108,7 @@
     line-height: 1.47;
     /* identical to box height, or 22px */
 
-    color: var(--white-text-color);
+    color: $white-text-color;
   }
   &__schedule-item {
     font-family: 'Roboto';
@@ -118,7 +118,7 @@
     line-height: 1.47;
     /* identical to box height, or 22px */
 
-    color: var(--white-text-color);
+    color: $white-text-color;
     &:not(:last-child) {
       margin-bottom: 8px;
     }
@@ -131,7 +131,7 @@
     line-height: 1.17;
     /* identical to box height, or 14px */
 
-    color: var(--white-text-color);
+    color: $white-text-color;
     margin-bottom: 7px;
   }
   &__copyright-container {

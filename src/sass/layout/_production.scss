@@ -21,21 +21,60 @@
   line-height: 1.7;
   /* or 30px */
 
-  letter-spacing: 0.03em;
+  &__title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1;
+    /* identical to box height, or 35px */
 
-  /* Основной цвет в категориях */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-  color: var(--main-color-category);
-  margin-bottom: 12px;
-}
-.production__text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-  /* or 27px */
+    /* Основной цвет в категориях */
 
-  color: var(--black-text-color);
-  margin-bottom: 14px;
+    color: $main-text-color-category;
+    margin-bottom: 12px;
+  }
+  &__desc {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    /* or 30px */
+
+    letter-spacing: 0.03em;
+
+    /* Основной цвет в категориях */
+
+    color: $main-text-color-category;
+    margin-bottom: 12px;
+  }
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    /* or 27px */
+
+    color: $black-text-color;
+    margin-bottom: 14px;
+  }
+  &__button {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69;
+
+    color: $black-text-color;
+    background-color: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
 }

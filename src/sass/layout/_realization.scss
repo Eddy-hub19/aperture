@@ -40,7 +40,7 @@
     font-size: 16px;
     line-height: 1.69;
 
-    color: var(--white-text-color);
+    color: $white-text-color;
     margin-bottom: 25px;
   }
   &__container-button {
@@ -48,17 +48,17 @@
     align-items: center;
   }
   &__button {
-    color: var(--accent-button-color);
+    color: $accent-button-color;
     padding: 17px 45px;
-    border: 2px solid var(--accent-button-color);
+    border: 2px solid $accent-button-color;
     border-radius: 100px;
     background-color: transparent;
     margin-right: 61px;
     text-align: center;
     &:hover,
     &:focus {
-      background-color: var(--accent-button-color);
-      color: var(--main-text-color-category);
+      background-color: $accent-button-color;
+      color: $main-text-color-category;
     }
   }
   &__soc-list {
@@ -73,6 +73,6 @@
     }
   }
   &__soc-icon {
-    fill: var(--white-text-color);
+    fill: $white-text-color;
   }
 }

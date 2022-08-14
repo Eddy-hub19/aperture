@@ -16,12 +16,13 @@
 
     display: flex;
     align-items: center;
+
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
     /* Основной цвет */
 
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 16px;
   }
   &__desc {
@@ -36,12 +37,13 @@
 
     /* Основной цвет */
 
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 40px;
   }
   &__list {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     gap: 30px;
   }
   &__item {
@@ -49,7 +51,10 @@
 
     box-shadow: 0px 4px 4px rgba(91, 111, 155, 0.4);
     width: 360px;
-    height: 467px;
+    height: 470px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   &__caption {
     font-family: 'Roboto Condensed';
@@ -63,10 +68,11 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: left;
 
     /* Основной цвет */
 
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 6px;
     height: 46px;
   }
@@ -80,7 +86,8 @@
 
     /* Основной цвет */
 
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 6px;
+    text-align: left;
   }
 }
