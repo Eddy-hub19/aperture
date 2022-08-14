@@ -30,11 +30,21 @@
     color: $main-text-color;
     margin-bottom: 40px;
   }
-  &-list {
+  &__list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
   }
-  &-item {
+  &__item {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      #22325b 0%,
+      rgba(34, 50, 91, 0.92) 15.96%,
+      rgba(34, 50, 91, 0.12) 100%
+    );
   }
-  &-text {
+  &__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -44,5 +54,34 @@
     letter-spacing: 0.03em;
 
     color: $black-text-color;
+  }
+  &__top-text {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.45;
+    /* or 20px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Второстепенный цвет */
+
+    color: $secondary-text-color;
+    background-color: inherit;
+    top: 50px;
+    padding-left: 20px;
+    &::after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      width: 130px;
+      height: 1px;
+      left: 20px;
+      top: 20px;
+      background-color: #cdeeff;
+    }
   }
 }
