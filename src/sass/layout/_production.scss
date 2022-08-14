@@ -1,6 +1,25 @@
 .production {
   padding-top: 73px;
   padding-bottom: 30px;
+}
+.production__title {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color-category);
+  margin-bottom: 12px;
+}
+.production__desc {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  /* or 30px */
 
   &__title {
     font-family: 'Roboto Condensed';
