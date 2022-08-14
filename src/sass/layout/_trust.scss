@@ -2,7 +2,13 @@
   padding-top: 71px;
   padding-bottom: 139px;
   background-color: rgba(100, 140, 200, 0.4);
-  position: relative;
+  // position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &.container {
+    position: relative;
+  }
   &__title {
     font-family: 'Oranienbaum';
     font-style: normal;
@@ -12,7 +18,7 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    color: var(--main-text-color);
+    color: $main-text-color;
   }
   &__desc {
     font-family: 'Roboto Condensed';
@@ -21,7 +27,7 @@
     font-size: 18px;
     line-height: 1.68;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 31px;
   }
 
@@ -38,6 +44,8 @@
     align-items: center;
   }
 }
-.swiper-button-next {
+.btn-trust,
+.btn-trust {
   position: absolute;
+  top: 200px;
 }
