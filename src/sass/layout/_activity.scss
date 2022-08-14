@@ -4,6 +4,7 @@
   background-color: #849ec3;
   &__container-text {
     padding: 11px 27px 25px 26px;
+    border: 1px solid rgba(91, 111, 155, 0.32);
   }
   &__title {
     font-family: 'Oranienbaum';
@@ -45,8 +46,10 @@
   }
   &__item {
     background-color: #ffffff;
+
+    box-shadow: 0px 4px 4px rgba(91, 111, 155, 0.4);
     width: 360px;
-    border-radius: 2px;
+    height: 467px;
   }
   &__caption {
     font-family: 'Roboto Condensed';
@@ -65,6 +68,7 @@
 
     color: var(--main-text-color);
     margin-bottom: 6px;
+    height: 46px;
   }
   &__caption-desc {
     font-family: 'Roboto';
