@@ -93,8 +93,8 @@
   padding-bottom: 110px;
   background: url(../images/bg-logo.png) no-repeat center;
   background-color: #23325b;
-  text-align: center;
   color: white;
+  text-align: center;
   &__title {
     font-family: "Oranienbaum";
     font-style: normal;
@@ -105,10 +105,21 @@
     text-transform: uppercase;
     color: #6cb3d8;
     text-align: start;
-    margin-left: 170px;
+    margin-left: 100px;
   }
-  .prodaction-btn {
+  &__btn {
     margin-top: 110px;
+    padding: 17px 45px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    background-color: transparent;
+    text-align: center;
+    &:hover,
+    &:focus {
+      background-color: $accent-button-color;
+      color: $main-text-color-category;
+      border: transparent;
+    }
   }
 }
 
@@ -122,4 +133,32 @@
 
 .prodaction-list__item {
   width: calc(100% - 40px) / 4;
+  position: relative;
+}
+
+.prodaction-list__title {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  &::before {
+    content: "";
+    width: 218px;
+    border: 1px solid #ffffffba;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
