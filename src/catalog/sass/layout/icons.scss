@@ -1,0 +1,74 @@
+.home {
+  background: #829cc2;
+  padding-top: 50px;
+  padding-bottom: 110px;
+}
+
+.bread-crumbs {
+  display: flex;
+  align-items: baseline;
+  &__span {
+    color: rgb(212, 210, 210);
+    margin-left: 20px;
+  }
+}
+
+.icons {
+  text-align: center;
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter-title {
+  font-family: "Oranienbaum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.32;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: #243b76;
+  background: transparent;
+  &:hover,
+  &:focus {
+    background: #243b76;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.current-btn {
+  background: #243b76;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+// btn-primary
+.btn-primary {
+  padding: 8px 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.68;
+  border: 1px solid #243b76;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.icons-btn {
+  margin-top: 60px;
+  color: #243b76;
+}
