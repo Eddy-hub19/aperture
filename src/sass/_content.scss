@@ -118,7 +118,7 @@
     &:focus {
       background-color: $accent-button-color;
       color: $main-text-color-category;
-      border: transparent;
+      border-color: transparent;
     }
   }
 }
@@ -131,12 +131,12 @@
   gap: 81px;
 }
 
-.prodaction-list__item {
+.production-list__item {
   width: calc(100% - 40px) / 4;
   position: relative;
 }
 
-.prodaction-list__title {
+.production-list__title {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
