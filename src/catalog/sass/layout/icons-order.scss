@@ -1,0 +1,95 @@
+.icons-order {
+  padding-top: 70px;
+  padding-bottom: 110px;
+  &__title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $main-text-color-category;
+    margin-bottom: 12px;
+  }
+  &__desc {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.69;
+
+    letter-spacing: 0.03em;
+
+    color: $main-text-color-category;
+    margin-bottom: 12px;
+  }
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69;
+
+    color: $black-text-color;
+    margin-bottom: 50px;
+  }
+  &__img-container {
+    display: flex;
+    justify-content: center;
+  }
+  &__img {
+    margin-bottom: 50px;
+  }
+  &__text-title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: $black-text-color;
+    margin-top: 25px;
+    margin-bottom: 12px;
+  }
+  &__text-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69;
+
+    color: $black-text-color;
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+  &__species-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  &__species-item {
+    width: 176px;
+  }
+  &__species-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.31;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $black-text-color;
+  }
+}
